@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background: #018DED url(./images/881-1500x1000-blur_5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,23 +24,6 @@ body {
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
 }
-.clock .number{
-    transform: rotate(var(--rotation));
-    position: absolute;
-}
-.clock .number1 {--rotation: 30deg;}
-.clock .number2 {--rotation: 30deg;}
-.clock .number3 {--rotation: 90deg;}
-.clock .number4 {--rotation: 120deg;}
-.clock .number5 {--rotation: 150deg;}
-.clock .number6 {--rotation: 180deg;}
-.clock .number7 {--rotation: 210deg;}
-.clock .number8 {--rotation: 240deg;}
-.clock .number9 {--rotation: 270deg;}
-.clock .number10 {--rotation: 300deg;}
-.clock .number11 {--rotation: 330deg;}
-
-
 .clock .hand {
     --rotation: 0;
     position: absolute;
@@ -65,7 +48,6 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 50%;
 }
-
 .clock .hand.second{
     width: 1.5px;
     height: 45%;
